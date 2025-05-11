@@ -1,1 +1,1 @@
-console.log("Проєкт працює");
+console.log("Проєкт працює index");

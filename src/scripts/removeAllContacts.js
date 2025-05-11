@@ -7,5 +7,6 @@ export const removeAllContacts = async () => {
     console.log(error.message);
   }
 };
+console.log('removeAllContacts.js працює!');
 
 removeAllContacts();

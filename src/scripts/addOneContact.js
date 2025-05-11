@@ -12,4 +12,6 @@ export const addOneContact = async () => {
   }
 };
 
+console.log('addOneContact.js працює!');
+
 addOneContact();

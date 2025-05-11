@@ -17,4 +17,6 @@ const generateContacts = async (number) => {
   }
 };
 
+console.log('generateContact.js працює!');
+
 generateContacts(5);

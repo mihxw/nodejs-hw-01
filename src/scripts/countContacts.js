@@ -9,4 +9,6 @@ export const countContacts = async () => {
   }
 };
 
+console.log('countContacts.js працює!');
+
 console.log(await countContacts());

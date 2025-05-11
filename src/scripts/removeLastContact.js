@@ -17,4 +17,6 @@ export const removeLastContact = async () => {
   }
 };
 
+console.log('removeLastContact.js працює!');
+
 removeLastContact();

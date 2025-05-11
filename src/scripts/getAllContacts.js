@@ -8,5 +8,6 @@ export const getAllContacts = async () => {
     console.log(error.message);
   }
 };
+console.log('getAllContacts.js працює!');
 
 console.log(await getAllContacts());

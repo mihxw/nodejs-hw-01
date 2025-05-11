@@ -1,6 +1,6 @@
 import fs from 'node:fs/promises';
 
-import { PATH_DB } from '../constants/contacts.js';
+import { PATH_DB } from '../constans/contacts.js';
 
 export const writeContacts = async (updatedContacts) => {
   try {
@@ -11,3 +11,5 @@ export const writeContacts = async (updatedContacts) => {
     console.log(error.message);
   }
 };
+
+console.log('writeContacts.js працює!')
